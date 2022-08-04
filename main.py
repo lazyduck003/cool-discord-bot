@@ -126,6 +126,6 @@ async def clear_error(ctx, error):
 
 #others
 #################################################################
-keep_alive()
-token = os.environ['token']
+
+token = os.environ['token']  #create an env file with ur token
 client.run(token)
